@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+body{
+    background-color: rgb(134, 28, 63);
+}
+
+.formulariosDatos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 30px auto auto;
+    margin-top:90px;
+    background-color: rgb(209, 194, 181);
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+.formularioDatos__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.formularioDatos__Div-form-input{
+    border-radius: 7px;
+    width: 350px;
+}
+
+.select1{
+    width: 350px;
+}
+.btn{
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 10px;
+ }
+
+ .formfactura{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 30px auto auto;
+    margin-top:90px;
+    background-color: rgb(209, 194, 181);
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+   
+
+ }
+.titulofactura__div-h2{
+    text-align:center;
+    margin-top:50px;
+    
+}
+.formufac__div-input{
+    border-radius: 7px;
+    width: 350px;
+
+}
+.formufac{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}

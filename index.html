@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Popsy</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="contenedorForm" class="formulariosDatos">
+            <img src="./Images-main/images/Pospys.png"width="400px" class="formularioDatos__img"> 
+            <form id="form" class="formularioDatos__form">
+                <div class=formulariosDatos__Div>
+                <label class="formularioDatos__Div-form-label">Nombre</label>
+                <input id="nombre" class="formularioDatos__Div-form-input" required>
+                </div>
+                <div class=formulariosDatos__Div>
+                <label class="formularioDatos__Div-form-label">Apellido</label>
+                <input id="apellido" class="formularioDatos__Div-form-input" required>
+                </div>
+                <div class=formulariosDatos__Div>
+                <label  class="formularioDatos__Div-form-label">Dirección</label>
+                <input id="direccion" class="formularioDatos__Div-form-input" required>
+                </div>
+                <div class=formulariosDatos__Div>
+                <label class="formularioDatos__Div-form-label">Contacto</label>
+                <input id="contacto" class="formularioDatos__Div-form-input" required>
+                </div>
+                <div class=formulariosDatos__Div>
+                <label class="formularioDatos__Div-form-label">Sabor de helado</label>
+                <select id="paleta" class="select1" required>
+                    <option value="Opciones">Opciones</option>
+                    <option value="Opciones">Durazno</option>
+                    <option value="Opciones">Kiwi</option>
+                    <option value="Opciones">Parchita</option>
+                    <option value="Opciones">Sandia</option>
+                </select>
+                </div>
+                <div>
+                    <button id="comprar" class="btn">Comprar</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="facturas" class="facturas">
+
+        </div>
+
+    </main>
+    <script type="text/javascript" src="scripts/script.js"> </script>
+</body>
+
+</html>
